@@ -4,7 +4,7 @@
 
 # Note: Currently only allows for 1 item to be purchased. Will work on a way to purchase multiple tomorrow.
 
-# Firstly, define our items and prices.
+# Firstly, define our items and prices.t
 item1 = "Auction House"
 item1Price = "$30"
 item2 = "Shop System"
