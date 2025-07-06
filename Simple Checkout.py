@@ -11,13 +11,15 @@ item2 = "Shop System"
 item2Price = "$20"
 item3 = "Ban System"
 item3Price = "$5"
+item4 = "Discord Relay"
+item4Price = "$50"
 
 checkoutCompleted = False
 validAnswer = False
 checkout = ""
 
 # Display available items
-print(f"Here is what we have to offer:\n1. {item1}\n2. {item2}\n3. {item3}")
+print(f"Here is what we have to offer:\n1. {item1}\n2. {item2}\n3. {item3}\n3. {item4}")
 
 # Get user item selection
 while not checkoutCompleted:
@@ -34,6 +36,10 @@ while not checkoutCompleted:
     elif answer == "3":
         print("Item 3 selected.")
         checkout = f"\nYour basket has {item3} and costs {item3Price}"
+        checkoutCompleted = True
+    elif answer === "4":
+        print("Item 4 selected.")
+        checkout = f"\nYour basket has {item4} and costs {item4Price"
         checkoutCompleted = True
     else:
         print("Invalid selection.")
