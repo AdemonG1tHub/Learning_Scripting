@@ -39,11 +39,11 @@ def checkout():
         print("Item 3 selected.")
         checkout.append("\nYour basket has {item3} and costs {item3Price}")
         checkout()
-    elif answer === "4":
+    elif answer == "4":
         print("Item 4 selected.")
         checkout.append("\nYour basket has {item4} and costs {item4Price}")
         checkout()
-    elif answer === "EXIT":
+    elif answer == "EXIT":
         print(f'{checkout}')
         while not validAnswer:
             confirmation = input("\nWould you like to go ahead with this transaction? (Y/N): ").strip().upper()
@@ -58,8 +58,3 @@ def checkout():
                 print("Invalid answer. Please type Y or N.\n")
     else:
         print("Invalid selection.")
-
-
-
-
-
