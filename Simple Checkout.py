@@ -58,3 +58,4 @@ def checkout():
                 print("Invalid answer. Please type Y or N.\n")
     else:
         print("Invalid selection.")
+checkout()
